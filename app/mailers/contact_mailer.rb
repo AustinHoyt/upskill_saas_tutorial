@@ -8,4 +8,5 @@ class ContactMailer < Actionmailer::Base
     
     mail(from: email, subject: 'Contact Form Message')
   end
+  
 end
