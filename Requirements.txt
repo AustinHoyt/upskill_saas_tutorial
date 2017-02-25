@@ -7,7 +7,7 @@ Memberships
 Stripe Integration
 1* Users should have a stripe customer token in the users table
 
-2* Javascript should prevent pro form from submitting, when user fills it out, 
+2* Javascript should prevent pro form from submitting, after user fills it out, 
 and should send card info to Stripe. Stripe will return with a card token.
 
 3* Javascript should send user fields and card token to our rails app. Rails app 
